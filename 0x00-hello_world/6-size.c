@@ -4,7 +4,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int i;
@@ -20,8 +19,8 @@ int main(void)
 	printf("The size of a float is: %lu bytes(s)\n",
 	(unsigned long)sizeof(f));
 	printf("The size of a long int is: %lu bytes(s)\n",
-	(unsigned long)sizeof(li);
+	(unsigned long)sizeof(li));
 	printf("The size of a long long int is: %lu bytes(s)\n",
-        (unsigned long)sizeof(lli);
+        (unsigned long)sizeof(lli));
 	return (0);
 }
